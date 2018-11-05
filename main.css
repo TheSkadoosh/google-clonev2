@@ -1,3 +1,7 @@
+.body {
+    height: 175;
+}
+
 /* Styles for the Nav Bar Containter */
 .top-nav-bar a {
     text-decoration: none;
@@ -16,7 +20,7 @@
 #top-right-nav a {
     vertical-align: middle;
     position: relative;
-    padding-top: 10px;
+    padding-top: 8px;
 }
 /* Container for right nav links */
 #top-right-cont a {
@@ -29,20 +33,20 @@
 
 /* Top right containter margin */
 #top-right-cont {
-    padding-top: 6px;
-    padding-right: 12px;
+    padding-top: 5px;
+    padding-right: 10px;
 }
 
 /* Styles for appdrawer image link */
 #appdrawer a {
     position: relative;
-    padding-top: 7px;
+    padding-top: 5px;
 
 }
 /* Styles for notifications image link */
 #notifications a {
     position: relative;
-    padding-top: 9px;
+    padding-top: 7px;
     padding-left: 12px;
 }
 /* Styles for account image link */
@@ -51,6 +55,48 @@
     padding-top: 0px;
     
 }
+
+/********************************************/
+/********************************************/
+
+.main-body {
+    padding-top: 68px;
+    display: flex;
+    justify-content: center;
+}
+/* Google Image Style */
+.google-image {
+    transform: scale(.65);
+    position: relative;
+    margin-right: 352px;
+}
+
+.static {
+    opacity: 1;
+    position: absolute;
+    }
+
+.static:hover {
+    position: absolute;
+
+}
+
+.active-gif {
+    position: absolute;
+    opacity: 0;
+}
+
+.active-gif:hover {
+    opacity: 1;
+    position: absolute;
+
+}
+
+.searchbar {
+    text-align: left;
+    width: 640;
+}
+
 
 /********************************************/
 /* This is the link section for link styles */
