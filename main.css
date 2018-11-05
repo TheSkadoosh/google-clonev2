@@ -1,39 +1,73 @@
+/* Styles for the Nav Bar Containter */
 .top-nav-bar a {
     text-decoration: none;
+    padding-top: 10px;
 }
+
 /* About and Store link */
 #top-left-nav a {
     vertical-align: middle;
     float: left;
-    padding-right: 10;
-
+    padding-left: 10px;
+    padding-top: 10px;
 }
 /* Gmail and Images link */
 #top-right-nav a {
     vertical-align: middle;
     position: relative;
-    padding-right: 10;
-
+    padding-top: 10px;
 }
 /* Container for right nav links */
-#top-right-navcont a {
+#top-right-menu a {
     float: right;
+    padding-right: 10px;
+    vertical-align: middle;
+    background-color: none;
 }
 /* Styles for appdrawer image link */
 #appdrawer a {
     position: relative;
-    vertical-align: middle;
-    padding-right: 10;
+    padding-top: 7px;
 }
 /* Styles for notifications image link */
 #notifications a {
     position: relative;
-    vertical-align: middle;
-    padding-right: 10;
+    padding-top: 7px;
 }
 /* Styles for account image link */
 #account a {
     position: relative;
-    vertical-align: middle;
-    padding-right: 10;
+    padding-right: 10px;
+    padding-top: 3px;
+    
 }
+
+/********************************************/
+/* This is the link section for link styles */
+
+/* unvisited link */
+.link {
+    text-decoration: none;
+}
+
+/* visited link */
+.visited {
+    color: blue;
+}
+
+/* mouse over link */
+.hover:hover {
+    text-decoration: underline;
+}
+
+/* selected link */
+.active {
+    color: black;
+}
+
+.scale:hover {
+    transform: scale(1.5);
+}
+
+/* End of link styles section */
+/********************************************/
