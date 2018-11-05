@@ -1,0 +1,39 @@
+.top-nav-bar a {
+    text-decoration: none;
+}
+/* About and Store link */
+#top-left-nav a {
+    vertical-align: middle;
+    float: left;
+    padding-right: 10;
+
+}
+/* Gmail and Images link */
+#top-right-nav a {
+    vertical-align: middle;
+    position: relative;
+    padding-right: 10;
+
+}
+/* Container for right nav links */
+#top-right-navcont a {
+    float: right;
+}
+/* Styles for appdrawer image link */
+#appdrawer a {
+    position: relative;
+    vertical-align: middle;
+    padding-right: 10;
+}
+/* Styles for notifications image link */
+#notifications a {
+    position: relative;
+    vertical-align: middle;
+    padding-right: 10;
+}
+/* Styles for account image link */
+#account a {
+    position: relative;
+    vertical-align: middle;
+    padding-right: 10;
+}
