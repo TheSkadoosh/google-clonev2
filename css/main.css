@@ -109,7 +109,7 @@
     padding-left: 15px;
     background-color: whitesmoke;
     background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat; /* adding microphone icon */
-    background-size: 5%;
+    background-size: 25px 25px;
     background-position: 550px;
     ;
 }
