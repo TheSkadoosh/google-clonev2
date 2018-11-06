@@ -138,6 +138,39 @@
     color: black;
 }
 
+/********************************************/
+/********************************************/
+
+/* Styles for the Nav Bar Containter */
+.bottom-nav-bar {
+    text-decoration: none;
+    padding-top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-top: .5px gray;
+}
+
+/* About and Store link */
+#bottom-nav {
+    vertical-align: middle;
+    padding-left: 17px;
+    padding-top: 14px;
+    background-color: whitesmoke;
+    height: 30px;
+}
+
+/* Container for right nav links */
+.right {
+    float: right;
+    padding-right: 8px;
+    padding-left: 10px;  
+}
+
+.left {
+    float: left;
+    padding-right: 8px;
+    padding-left: 10px;
+}
 
 /********************************************/
 /* This is the link section for link styles */
