@@ -20,7 +20,7 @@
 #top-right-nav a {
     vertical-align: middle;
     position: relative;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 /* Container for right nav links */
 #top-right-cont a {
@@ -33,20 +33,20 @@
 
 /* Top right containter margin */
 #top-right-cont {
-    padding-top: 5px;
+    padding-top: 7px;
     padding-right: 10px;
 }
 
 /* Styles for appdrawer image link */
 #appdrawer a {
     position: relative;
-    padding-top: 5px;
+    padding-top: 7px;
 
 }
 /* Styles for notifications image link */
 #notifications a {
     position: relative;
-    padding-top: 7px;
+    padding-top: 8px;
     padding-left: 12px;
 }
 /* Styles for account image link */
@@ -69,8 +69,9 @@
     transform: scale(.65);
     position: relative;
     margin-right: 352px;
+    background-color: none;
 }
-
+/* Google logo image static */
 .static {
     opacity: 1;
     position: absolute;
@@ -80,7 +81,7 @@
     position: absolute;
 
 }
-
+/* Google logo image gif */
 .active-gif {
     position: absolute;
     opacity: 0;
@@ -93,8 +94,21 @@
 }
 
 .searchbar {
-    text-align: left;
-    width: 640;
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+.search {
+    height: 40px;
+    width: 580px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
+    border: none;
+}
+
+#searchbar:hover {
+    box-shadow: 1px 2px 1px 1px gray;
 }
 
 
