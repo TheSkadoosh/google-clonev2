@@ -163,7 +163,11 @@
     padding-left: 17px;
     padding-top: 14px;
     background-color: whitesmoke;
-    height: 30px;
+    height: 20px;
+}
+
+#bottom-nav a {
+    margin-top: 10px;
 }
 
 /* Container for right nav links */
